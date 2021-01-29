@@ -4,6 +4,7 @@ pipeline {
         stage('Example Build') {
             steps {
                 sh 'mvn --version'
+                sh 'sleep 1m'
             }
         }
     }
